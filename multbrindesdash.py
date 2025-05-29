@@ -8,11 +8,11 @@ BASE_DIR = Path(__file__).parent
 # Carregar o DataFrame
 
 st.title("Multbrindes")
-st.write("A digitalização e a administração de dados no ambiente empresarial são formas estratégicas tanto para grandes quantidades de registros quanto para análises aprimoradas dos dados. No setor de serviços terceirizados, especialmente empresas voltadas para o sistema B2B ou assim como a MultBrindes que grande parte de suas vendas são voltadas para órgãos públicos, a análise estruturada de dados representa um diferencial competitivo na efetividade de processos.")
+st.write("Este projeto teve como objetivo organizar e digitalizar os dados de vendas da empresa MultBrindes, especializada no setor de serviços B2B e com foco em vendas para órgãos públicos. A ausência de uma sistematização eficiente dificultava a tomada de decisões estratégicas. Para solucionar esse problema, foi desenvolvido um programa de análise de dados utilizando o Pandas, associado a ferramentas como Matplotlib, Seaborn e DataFrame, aprendidas nas aulas de Programação Estruturada.")
 
-st.write("Visto que o problema central está na ausência de uma sistematização eficiente dos dados das vendas acumulados nos últimos anos, dificultando a organização e tomada de decisões estratégicas, este artigo fará o uso da ferramenta pandas, estudada nas aulas de Programação Estruturada, com intuito de aplicá-la na análise das vendas de brindes a favor de identificar oportunidades de otimização na produção e comercialização.")
+st.write("A pesquisa adotou uma abordagem quantitativa, baseada na análise de dados fornecidos pela empresa, referentes ao período de 2019 a 2025. Após anonimização das informações, os dados foram organizados em planilhas e transformados em um dashboard interativo com gráficos de barras e de pizza, facilitando a visualização por parte da administração.")
 
-st.write("O objetivo é desenvolver um programa que permita análise funcional dos dados de vendas da empresa. Ao aplicar o programa pandas e Data frame, será possível identificar quais produtos e períodos apresentam maior rentabilidade, contribuindo diretamente para o planejamento estratégico da empresa.")
+st.write("A digitalização e análise de dados foram ferramentas fundamentais para a gestão empresarial, permitindo transformar registros brutos em insights estratégicos que orientarão decisões futuras mais assertivas.")
 
 
 botaopla = st.button("planilha analisada")
