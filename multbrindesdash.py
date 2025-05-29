@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import openpyxl as opx
+from pathlib import Path
+BASE_DIR = Path(__file__).parent
 
 # Carregar o DataFrame
 
@@ -14,7 +17,7 @@ st.write("O objetivo é desenvolver um programa que permita análise funcional d
 
 botaopla = st.button("planilha analisada")
 
-file = "C:\\Users\\calebe\\Documents\\estruturada_calebe\\multbrindes_classes.xlsx"
+file = BASE_DIR/"multbrindes_classes.xlsx"
 df = pd.read_excel(file)
 
 multbrindes = df.copy()
