@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import openpyxl as opx
 from pathlib import Path
-BASE_DIR = Path(__file__).parent
+#BASE_DIR = Path(__file__).parent
 
 # Carregar o DataFrame
 
@@ -17,8 +17,11 @@ st.write("A digitalização e análise de dados foram ferramentas fundamentais p
 
 botaopla = st.button("planilha analisada")
 
-file = BASE_DIR/"multbrindes_classes.xlsx"
-df = pd.read_excel(file)
+arq1 = st.file_uploader("escolha um arquivo",type=["csv","xlsx","txt"])
+if arq1 is not None:
+    df = pd.read_excel(arq1)
+    st.write("planilha carregada com sucesso!")
+    multbrindes = df.copy()
 
 multbrindes = df.copy()
 if botaopla:
