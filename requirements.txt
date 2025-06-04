@@ -1,4 +1,5 @@
-streamlit
-matplotlib
-pandas
-openpyxl
+pandas: Utilizado para manipulação e análise de dados.
+matplotlib: Usado para criar visualizações e gráficos estáticos, animados e interativos.
+seaborn: Baseado no matplotlib, fornece uma interface de alto nível para desenhar gráficos estatísticos atraentes e informativos.
+streamlit: Utilizado para criar e compartilhar aplicativos web de ciência de dados e aprendizado de máquina.
+openpyxl: Necessário para o pandas ler e escrever arquivos Excel (.xlsx
